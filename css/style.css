@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.calculadora {
+    
+    padding: 1rem;
+    background-color: lightblue;
+    border: medium rgb(2, 2, 158) solid;
+}
+
+.visor {
+    background-color: white;
+    border: medium gray solid;
+    border-radius: 10px;
+    padding: .825rem .5rem;
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+
+.teclado{
+    padding-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    
+}
+.teclado-numerico {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex:1;
+}
+
+.teclado-operaciones {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.teclado-bloque-1,
+.teclado-bloque-2,
+.teclado-bloque-3,
+.teclado-bloque-4,
+.teclado-bloque-5,
+.teclado-bloque-6,
+.teclado-bloque-7,
+.teclado-bloque-8 {
+    display: flex;
+    gap: .5rem;
+}
